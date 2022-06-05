@@ -1,0 +1,17 @@
+{
+  "library": "spring-mvc",
+  "dateLibrary": "java8",
+  "hideGenerationTimestamp": true,
+  "modelPackage": "com.andriit.ecomtutorial.models",
+  "apiPackage": "com.andriit.ecomtutorial.api",
+  "invokerPackage": "com.andriit.ecomtutorial",
+  "serializableModel": true,
+  "useTags": true,
+  "useGzipFeature" : true,
+  "hateoas": true,
+  "withXml": false,
+  "importMappings": {
+    "ResourceSupport":"org.springframework.hateoas.RepresentationModel",
+    "Link": "org.springframework.hateoas.Link"
+  }
+}
